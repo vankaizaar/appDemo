@@ -42,6 +42,19 @@ h2
     margin:15px 0;
     border-bottom:3px solid #ffcb0f !important;
 }
+
+h3
+{
+    font-size:14px;
+    font-weight:700;
+    color:#000;
+    font-family: 'Montserrat', sans-serif;
+    line-height:25px;
+    text-transform:capitalize;
+    /*padding:0 15px !important;*/
+    margin:10px 0;    
+}
+
 #block-block-10 p{
     /*Forgotten pwd block*/
     text-align:right;

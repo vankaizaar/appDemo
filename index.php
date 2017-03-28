@@ -76,16 +76,15 @@
             </div>
         </header>
         <section>           
-            <div class="container" style="margin-top: 10px">
-                <div class="row">
-                    <h1>Technites Demo User Flow</h1>
-                    <div class="col col-lg-3">
+            <div class="container">
+                <div class="row">                  
+                    <div class="col-sm-3">
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-sm-12">
                                 <h2>On customer Device</h2>
                                 <p>Order through the business system, track location of driver in real-time, and rate service.</p>
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-sm-12">
                                         <h3>When placing the order</h3>
                                         <div class="device-mockup" data-device="macbook" data-orientation="portrait" data-color="white">
                                             <div class="device">
@@ -123,14 +122,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col col-lg-6">
+                    <div class="col-sm-6">
                         <div class="row">                                                        
                             <div class="row">
-                                <div class="col-md-12">
+                                <div class="col-sm-12">
                                     <h2>Business Management Dashboard</h2>
                                     <p>Dispatch orders to drivers, locate and communicate with drivers.</p>                                        
                                     <div class="row">
-                                        <div class="col-md-12">
+                                        <div class="col-sm-12">
                                             <div class="device-mockup" data-device="macbook" data-orientation="portrait" data-color="white">
                                                 <div class="device">
                                                     <div class="screen">
@@ -149,13 +148,13 @@
                             </div>                                                       
                         </div>
                     </div>
-                    <div class="col-lg-3">     
+                    <div class="col-sm-3">     
                         <div class="row">               
-                            <div class="col-md-12">
+                            <div class="col-sm-12">
                                 <h2>Driver Native Mobile App</h2>
                                 <p>Manage orders on the go, share location and communicate with customers.</p>
                                 <div class="row">
-                                    <div class="col-md-10 col-md-offset-1">
+                                    <div class="col-sm-10 col-sm-offset-1">
                                         <div class="device-mockup" data-device="iphone5" data-orientation="portrait" data-color="black">
                                             <div class="device">
                                                 <div class="screen">
