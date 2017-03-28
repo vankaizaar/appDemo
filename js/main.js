@@ -41,6 +41,8 @@ $(function () {
     };
 });
 
+
+
 $(function () {
     var counterDash = 1;
 
@@ -85,3 +87,31 @@ $(function () {
     $('[data-toggle="tooltip"]').tooltip();
 });
 
+
+var images = [];
+function preload() {
+    for (var i = 0; i < arguments.length; i++) {
+        images[i] = new Image();
+        images[i].src = preload.arguments[i];
+    }
+};
+
+preload(
+        "images/steps/customer-device/1.png",
+        "images/steps/customer-device/2.png",
+        "images/steps/customer-device/3.png",
+        "images/steps/customer-device/4.png",
+        "images/steps/customer-device/5.png",
+        "images/steps/customer-device/6.png",
+        "images/steps/customer-device/7.png",
+        "images/steps/customer-device/8.png",
+        "images/steps/customer-device/9.png",
+        "images/steps/business-management-dashboard/1.png",
+        "images/steps/business-management-dashboard/1.png",
+        "images/steps/driver-native-app/1.png",
+        "images/steps/driver-native-app/2.png",
+        "images/steps/driver-native-app/3.png",
+        "images/steps/driver-native-app/4.png",
+        "images/steps/driver-native-app/5.png",
+        "images/steps/driver-native-app/6.png"
+        );
