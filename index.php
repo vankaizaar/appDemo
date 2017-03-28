@@ -4,8 +4,7 @@
         <title>Technites Demo</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">       
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" />        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">                       
         <link href="css/main.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
@@ -90,7 +89,7 @@
                                             <div class="device">
                                                 <div class="screen">  
                                                     <div class="cust1">
-                                                        <img src="images/steps/customer-device/1.png" class="img-responsive" id="custy1" onclick="changeImage()" Title="Create Order using public task form" />
+                                                        <img src="images/steps/customer-device/1.png" class="img-responsive" id="custy1" onclick="changeImage()" Title="Create Order using public task form" data-toggle="tooltip" data-placement="auto top" />
                                                         <!--<img src="images/steps/customer-device/1.png" alt="" class="img-responsive" id="custy1"/> -->
                                                     </div>
                                                 </div>
@@ -108,7 +107,7 @@
                                             <div class="device">
                                                 <div class="screen">
                                                     <div class="cust2">
-                                                        <img src="images/steps/customer-device/4.png" alt="" class="img-responsive" title="Customer receives notification of technite on their way" id="custy2" onclick="changeImage2()"/>                                                                
+                                                        <img src="images/steps/customer-device/4.png" alt="" class="img-responsive" id="custy2" onclick="changeImage2()" data-toggle="tooltip" data-placement="auto top" title="Customer receives notification of technite on their way"/>                                                                
                                                     </div>
                                                 </div>
                                                 <div class="button">
@@ -134,7 +133,7 @@
                                                 <div class="device">
                                                     <div class="screen">
                                                         <div class="dash">
-                                                            <img src="images/steps/business-management-dashboard/1.png" alt="" id="dash" class="img-responsive" onclick="changeImage3()" title="Order created on Bringg App unassigned to Technite"/>                                                            
+                                                            <img src="images/steps/business-management-dashboard/1.png" alt="" id="dash" class="img-responsive" onclick="changeImage3()" data-toggle="tooltip" data-placement="auto top" title="Order created on Bringg App unassigned to Technite"/>                                                            
                                                         </div>
                                                     </div>
                                                     <div class="button">
@@ -159,7 +158,7 @@
                                             <div class="device">
                                                 <div class="screen">
                                                     <div class="tech">
-                                                        <img src="images/steps/driver-native-app/1.png" id="tech" class="img-responsive" onclick="changeImage3()" title="Order received by Technite on Driver App"/>                                                        
+                                                        <img src="images/steps/driver-native-app/1.png" id="tech" class="img-responsive" onclick="changeImage3()" data-toggle="tooltip" data-placement="auto middle" title="Order received by Technite on Driver App"/>                                                        
                                                     </div>
                                                 </div>
                                                 <div class="button">
@@ -177,8 +176,7 @@
             </div>
         </section>       
         <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript"></script>                
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>        
         <script src="js/main.js" type="text/javascript"></script>
     </body>
 </html>

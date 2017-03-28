@@ -391,3 +391,7 @@ section#block-search-form
      cursor: url("../images/hand-orange.png"), auto;
 }
 
+.tooltip {
+    position: fixed;
+}
+
