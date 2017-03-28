@@ -1,120 +1,87 @@
-$(document).ready(function () {
+$(function () {
+    var counterCust1 = 1;
 
-    $(".next-step").click(function (e) {
-
-        var $active = $('.nav-tabs li.active');
-        $active.next().removeClass('disabled');
-        nextTab($active);
-
-    });
-    $(".prev-step").click(function (e) {
-
-        var $active = $('.nav-tabs li.active');
-        prevTab($active);
-
-    });
-});
-function nextTab(elem) {
-    $(elem).next().find('a[data-toggle="tab"]').click();
-}
-function prevTab(elem) {
-    $(elem).prev().find('a[data-toggle="tab"]').click();
-}
-$(window).load(function () {
-    var currentIndex = 0,
-            items = $('.cust1 img'),
-            itemAmt = items.length;
-
-    function cycleItems() {
-
-        console.log("Clicked");
-        currentIndex += 1;
-
-        if (currentIndex > itemAmt - 1) {
-            currentIndex = 0;
+    custy1.onclick = function () {
+        if (counterCust1 == 0) {
+            document.getElementById("custy1").src = "images/steps/customer-device/1.png";
+            counterCust1++;
+        } else if (counterCust1 == 1) {
+            document.getElementById("custy1").src = "images/steps/customer-device/2.png";
+            counterCust1++;
+        } else if (counterCust1 == 2) {
+            document.getElementById("custy1").src = "images/steps/customer-device/3.png";
+            counterCust1 = 2;
         }
-
-        var item = $('.cust1 img').eq(currentIndex);
-        items.hide("slide", { direction: "right" }, 250);
-        item.show("slide", { direction: "left" }, 250);
-
-    }
-    $('.cust1 img').filter(':visible').click(function () {
-        cycleItems();
-    });
-});
-$(window).load(function () {
-    var currentIndex1 = 0,
-            items1 = $('.cust2 img'),
-            itemAmt1 = items1.length;
-
-    function cycleItems1() {
-
-        console.log("Clicked");
-        currentIndex1 += 1;
-
-        if (currentIndex1 > itemAmt1 - 1) {
-            currentIndex1 = 0;
-        }
-
-        var item1 = $('.cust2 img').eq(currentIndex1);
-        items1.hide();
-        item1.show("slide", { direction: "up" }, 250);
-
-    }
-    $('.cust2 img').filter(':visible').click(function () {
-        cycleItems1();
-    });
-});
-$(window).load(function () {
-    var currentIndex2 = 0,
-            items2 = $('.dash img'),
-            itemAmt2 = items2.length;
-
-    function cycleItems2() {
-
-        console.log("Clicked");
-        currentIndex2 += 1;
-
-        if (currentIndex2 > itemAmt2 - 1) {
-            currentIndex2 = 0;
-        }
-
-        var item2 = $('.dash img').eq(currentIndex2);
-        items2.hide();
-        item2.show("slide", { direction: "left" }, 250);
-
-    }
-    $('.dash img').filter(':visible').click(function () {
-        cycleItems2();
-    });
-});
-
-$(window).load(function () {
-    var currentIndex3 = 0,
-            items3 = $('.tech img'),
-            itemAmt3 = items3.length;
-
-    function cycleItems3() {
-
-        console.log(itemAmt3);
-        currentIndex3 += 1;
-
-        if (currentIndex3 > itemAmt3 - 1) {
-            currentIndex3 = 0;
-        }
-
-        var item3 = $('.tech img').eq(currentIndex3);
-        items3.hide();
-        item3.show("slide", { direction: "up" }, 250);
-
-    }
-    $('.tech img').filter(':visible').click(function () {
-        cycleItems3();
-    });
+    };
 });
 
 $(function () {
-  $('[data-toggle="tooltip"]').tooltip();
+    var counterCust2 = 1;
+
+    custy2.onclick = function () {
+        if (counterCust2 == 0) {
+            document.getElementById("custy2").src = "images/steps/customer-device/4.png";
+            counterCust2++;
+        } else if (counterCust2 == 1) {
+            document.getElementById("custy2").src = "images/steps/customer-device/5.png";
+            counterCust2++;
+        } else if (counterCust2 == 2) {
+            document.getElementById("custy2").src = "images/steps/customer-device/6.png";
+            counterCust2++;
+        } else if (counterCust2 == 3) {
+            document.getElementById("custy2").src = "images/steps/customer-device/7.png";
+            counterCust2++;
+        } else if (counterCust2 == 4) {
+            document.getElementById("custy2").src = "images/steps/customer-device/8.png";
+            counterCust2++;
+        } else if (counterCust2 == 5) {
+            document.getElementById("custy2").src = "images/steps/customer-device/9.png";
+            counterCust2 = 5;
+        }
+    };
+});
+
+$(function () {
+    var counterDash = 1;
+
+    dash.onclick = function () {
+        if (counterDash == 0) {
+            document.getElementById("dash").src = "images/steps/business-management-dashboard/1.png";
+            counterDash++;
+        } else if (counterDash == 1) {
+            document.getElementById("dash").src = "images/steps/business-management-dashboard/2.png";
+            counterDash = 1;
+        }
+    };
+});
+
+$(function () {
+    var counterTech = 1;
+
+    tech.onclick = function () {
+        if (counterTech == 0) {
+            document.getElementById("tech").src = "images/steps/driver-native-app/1.png";
+            counterTech++;
+        } else if (counterTech == 1) {
+            document.getElementById("tech").src = "images/steps/driver-native-app/2.png";
+            counterTech++;
+        } else if (counterTech == 2) {
+            document.getElementById("tech").src = "images/steps/driver-native-app/3.png";
+            counterTech++;
+        } else if (counterTech == 3) {
+            document.getElementById("tech").src = "images/steps/driver-native-app/4.png";
+            counterTech++;
+        } else if (counterTech == 4) {
+            document.getElementById("tech").src = "images/steps/driver-native-app/5.png";
+            counterTech++;
+        } else if (counterTech == 5) {
+            document.getElementById("tech").src = "images/steps/driver-native-app/6.png";
+            counterTech = 5;
+        }
+    };
+});
+
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip();
 });
 

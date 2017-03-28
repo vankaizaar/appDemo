@@ -374,65 +374,7 @@ section#block-search-form
 {
     color:#fff;
 }
-
-.nav-tabs > li.active > a, 
-.nav-tabs > li.active > a:focus, 
-.nav-tabs > li.active > a:hover 
-{ border-width: 0; }
-.nav-stacked > li + li {
-    margin-top: 0px;
-}
-.nav-tabs > li > a {
-    padding: 30px 80px 30px 80px !important;
-    color: #AAAAAA;
-    background-color: #1e1e1e;
-    border: 0px;
-    border-radius: 0px;
-    margin: 0;
-}
-.nav-tabs > li > a:hover, 
-.nav-tabs > li > a:focus {
-    background-color: #ffcb0f !important;
-    color: #FFFFFF;
-    z-index: 99;
-    transition: all 0.1s ease 0s;
-}
-.nav-tabs > li.active > a {
-    color: #FFFFFF;
-    background-color: #ffcb0f;
-    box-shadow: 0 0px 5px rgba(0, 0, 0, .6);
-    z-index: 100;
-    font-weight: bolder;
-}
-.nav-tabs > li.active > a:hover, 
-.nav-tabs > li.active > a:focus {
-    color: #FFFFFF;
-    background-color: rgba(255, 203, 15, 1) !important;
-    box-shadow: 0 0px 5px rgba(0, 0, 0, .6);
-    transition: all 0.1s ease 0s;
-}
-.btn {
-    display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: normal;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    transition: all 0.5s ease 0s;
-
+.cust2,.cust1,.dash,.tech{
+     cursor: url("../images/hand-orange.png"), auto;
 }
 

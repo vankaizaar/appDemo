@@ -80,112 +80,91 @@
                 <div class="row">
                     <h1>Technites Demo User Flow</h1>
                     <div class="col col-lg-3">
-                        <ul class="nav nav-tabs nav-stacked text-center" role="tablist">
-                            <li role="presentation" class="active"><a href="#customer" aria-controls="customer" role="tab" data-toggle="tab">Customer</a></li>
-                            <li role="presentation"><a href="#dashboard" aria-controls="dashboard" role="tab" data-toggle="tab">Business management dashboard</a></li>
-                            <li role="presentation"><a href="#technite" aria-controls="technite" role="tab" data-toggle="tab">Technite</a></li>
-                        </ul>
-                    </div>
-                    <div class="col col-lg-9">
-                        <div class="row tab-content">
-                            <div role="tabpanel" class="tab-pane fade active in" id="customer">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2>On customer Device</h2>
+                                <p>Order through the business system, track location of driver in real-time, and rate service.</p>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <h2>On customer Device</h2>
-                                        <p>Order through the business system, track location of driver in real-time, and rate service.</p>
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <h3>When placing the order</h3>
-                                                <div class="device-mockup" data-device="macbook" data-orientation="portrait" data-color="white">
-                                                    <div class="device">
-                                                        <div class="screen">  
-                                                            <div class="cust1">
-                                                                <img src="images/steps/customer-device/1.png" alt="" class="img-responsive" data-toggle="tooltip" data-placement="right" title="Tooltip on left"/>
-                                                                <img src="images/steps/customer-device/2.png" alt="" class="img-responsive" title="Test"/>
-                                                                <img src="images/steps/customer-device/3.png" alt="" class="img-responsive" title="Test"/>
-                                                            </div>
-                                                        </div>
-                                                        <div class="button">
-                                                            <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                                                        </div>
+                                        <h3>When placing the order</h3>
+                                        <div class="device-mockup" data-device="macbook" data-orientation="portrait" data-color="white">
+                                            <div class="device">
+                                                <div class="screen">  
+                                                    <div class="cust1">
+                                                        <img src="images/steps/customer-device/1.png" class="img-responsive" id="custy1" onclick="changeImage()" />
+                                                        <!--<img src="images/steps/customer-device/1.png" alt="" class="img-responsive" id="custy1"/> -->
                                                     </div>
+                                                </div>
+                                                <div class="button">
+                                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <h3>After order has been received and assigned to technite</h3>
-                                            <div class="col-md-4 col-md-offset-4">
-                                                <div class="device-mockup" data-device="iphone5" data-orientation="portrait" data-color="white">
-                                                    <div class="device">
-                                                        <div class="screen">
-                                                            <div class="cust2">
-                                                                <img src="images/steps/customer-device/4.png" alt="" class="img-responsive" title="Test"/>
-                                                                <img src="images/steps/customer-device/5.png" alt="" class="img-responsive" title="Test"/>
-                                                                <img src="images/steps/customer-device/6.png" alt="" class="img-responsive" title="Test"/>                                                            
-                                                                <img src="images/steps/customer-device/8.png" alt="" class="img-responsive" title="Test"/>
-                                                                <img src="images/steps/customer-device/9.png" alt="" class="img-responsive" title="Test"/>
-                                                                <img src="images/steps/customer-device/10.png" alt="" class="img-responsive" title="Test"/>
-                                                            </div>
-                                                        </div>
-                                                        <div class="button">
-                                                            <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <h3>After order has been received and assigned to technite</h3>
+                                    <div class="col-sm-10 col-sm-offset-1">
+                                        <div class="device-mockup" data-device="iphone5" data-orientation="portrait" data-color="white">
+                                            <div class="device">
+                                                <div class="screen">
+                                                    <div class="cust2">
+                                                        <img src="images/steps/customer-device/4.png" alt="" class="img-responsive" title="Test" id="custy2" onclick="changeImage2()"/>                                                                
                                                     </div>
+                                                </div>
+                                                <div class="button">
+                                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
+                                </div>
 
-                                    </div>
-                                </div>
                             </div>
-                            <div role="tabpanel" class="tab-pane fade" id="dashboard">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <h2>Business Management Dashboard</h2>
-                                        <p>Dispatch orders to drivers, locate and communicate with drivers.</p>                                        
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="device-mockup" data-device="macbook" data-orientation="portrait" data-color="white">
-                                                    <div class="device">
-                                                        <div class="screen">
-                                                            <div class="dash">
-                                                                <img src="images/steps/business-management-dashboard/1.png" alt="" class="img-responsive"/>
-                                                                <img src="images/steps/business-management-dashboard/2.png" alt="" class="img-responsive"/>
-                                                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-lg-6">
+                        <div class="row">                                                        
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2>Business Management Dashboard</h2>
+                                    <p>Dispatch orders to drivers, locate and communicate with drivers.</p>                                        
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="device-mockup" data-device="macbook" data-orientation="portrait" data-color="white">
+                                                <div class="device">
+                                                    <div class="screen">
+                                                        <div class="dash">
+                                                            <img src="images/steps/business-management-dashboard/1.png" alt="" id="dash" class="img-responsive" onclick="changeImage3()"/>                                                            
                                                         </div>
-                                                        <div class="button">
-                                                            <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                                                        </div>
+                                                    </div>
+                                                    <div class="button">
+                                                        <!-- You can hook the "home button" to some JavaScript events or just remove it -->
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div role="tabpanel" class="tab-pane fade" id="technite">
+                            </div>                                                       
+                        </div>
+                    </div>
+                    <div class="col-lg-3">     
+                        <div class="row">               
+                            <div class="col-md-12">
+                                <h2>Driver Native Mobile App</h2>
+                                <p>Manage orders on the go, share location and communicate with customers.</p>
                                 <div class="row">
-                                    <div class="col-md-12">
-                                        <h2>Driver Native Mobile App</h2>
-                                        <p>Manage orders on the go, share location and communicate with customers.</p>
-                                        <div class="row">
-                                            <div class="col-md-4 col-md-offset-4">
-                                                <div class="device-mockup" data-device="iphone5" data-orientation="portrait" data-color="black">
-                                                    <div class="device">
-                                                        <div class="screen">
-                                                            <div class="tech">
-                                                                <img src="images/steps/driver-native-app/1.png" class="img-responsive"/>
-                                                                <img src="images/steps/driver-native-app/2.png" class="img-responsive"/>
-                                                                <img src="images/steps/driver-native-app/3.png" class="img-responsive"/>
-                                                                <img src="images/steps/driver-native-app/4.png" class="img-responsive"/>
-                                                                <img src="images/steps/driver-native-app/6.png" class="img-responsive"/>
-                                                                <img src="images/steps/driver-native-app/7.png" class="img-responsive"/>
-                                                            </div>
-                                                        </div>
-                                                        <div class="button">
-                                                            <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                                                        </div>
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <div class="device-mockup" data-device="iphone5" data-orientation="portrait" data-color="black">
+                                            <div class="device">
+                                                <div class="screen">
+                                                    <div class="tech">
+                                                        <img src="images/steps/driver-native-app/1.png" id="tech" class="img-responsive" onclick="changeImage3()"/>                                                        
                                                     </div>
+                                                </div>
+                                                <div class="button">
+                                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
                                                 </div>
                                             </div>
                                         </div>
@@ -195,12 +174,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <ul class="list-inline pull-right">
-                        <li><button type="button" class="btn btn-primary prev-step">Previous</button></li>
-                        <li><button type="button" class="btn btn-primary next-step">Next</button></li>                        
-                    </ul>                
-                </div>
+
             </div>
         </section>       
         <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
