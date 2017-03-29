@@ -1,24 +1,24 @@
 $(document).ready(function () {
     $('[data-toggle="tooltip"]').tooltip();
 });
-$(function () {
-    var counterCust1 = 1;
-    custy1.onclick = function () {
-        if (counterCust1 == 0) {
-            document.getElementById("custy1").src = "images/steps/customer-device/1.png";
-            $("#custy1").attr('title', 'Create Order using public task form').tooltip('fixTitle').tooltip('show');
-            counterCust1++;
-        } else if (counterCust1 == 1) {
-            document.getElementById("custy1").src = "images/steps/customer-device/2.png";
-            $("#custy1").attr('title', 'Enter Order Details and click send order').tooltip('fixTitle').tooltip('show');
-            counterCust1++;
-        } else if (counterCust1 == 2) {
-            document.getElementById("custy1").src = "images/steps/customer-device/3.png";
-            $("#custy1").attr('title', 'Notification received for successfully created order').tooltip('fixTitle').tooltip('show');
-            counterCust1 = 2;
-        }
-    };
-});
+//$(function () {
+  //  var counterCust1 = 1;
+   // custy1.onclick = function () {
+     //   if (counterCust1 == 0) {
+      //      document.getElementById("custy1").src = "images/steps/customer-device/1.png";
+       //     $("#custy1").attr('title', 'Create Order using public task form').tooltip('fixTitle').tooltip('show');
+      //      counterCust1++;
+       // } else if (counterCust1 == 1) {
+       //     document.getElementById("custy1").src = "images/steps/customer-device/2.png";
+       //     $("#custy1").attr('title', 'Enter Order Details and click send order').tooltip('fixTitle').tooltip('show');
+       //     counterCust1++;
+       // } else if (counterCust1 == 2) {
+      //      document.getElementById("custy1").src = "images/steps/customer-device/3.png";
+      //      $("#custy1").attr('title', 'Notification received for successfully created order').tooltip('fixTitle').tooltip('show');
+     //       counterCust1 = 2;
+     //   }
+   // };
+//});
 
 $(function () {
     var counterCust2 = 1;

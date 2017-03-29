@@ -152,7 +152,7 @@
                                 <p>Manage orders on the go, share location and communicate with customers.</p>
                                 <div class="row">
                                     <div class="col-xs-10 col-xs-offset-1">
-                                        <div class="device-mockup" data-device="galaxy_s3" data-orientation="portrait" data-color="black">
+                                        <div class="device-mockup" data-device="galaxy_s5" data-orientation="portrait" data-color="black">
                                             <div class="device">
                                                 <div class="screen">
                                                     <div class="tech">
