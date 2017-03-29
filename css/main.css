@@ -395,3 +395,7 @@ section#block-search-form
     position: fixed;
 }
 
+
+#custy2,#dash,#tech{
+    animation-duration: 0.2s;
+}
