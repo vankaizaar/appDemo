@@ -82,26 +82,24 @@
                             <div class="col-xs-12">
                                 <h2>On customer Device</h2>
                                 <p>Order through the business system, track location of driver in real-time, and rate service.</p>
-                                <div class="row">
+                                <!--<div class="row">
                                     <div class="col-xs-12">
                                         <h3>When placing the order</h3>
                                         <div class="device-mockup" data-device="macbook" data-orientation="portrait" data-color="white">
                                             <div class="device">
                                                 <div class="screen">  
                                                     <div class="cust1">
-                                                        <img src="images/steps/customer-device/1.png" class="img-responsive" id="custy1" onclick="changeImage()" Title="Create Order using public task form" data-toggle="tooltip" data-placement="auto top" />
-                                                        <!--<img src="images/steps/customer-device/1.png" alt="" class="img-responsive" id="custy1"/> -->
+                                                        <img src="images/steps/customer-device/1.png" class="img-responsive" id="custy1" onclick="changeImage()" Title="Create Order using public task form" data-toggle="tooltip" data-placement="auto top" />                                                        
                                                     </div>
                                                 </div>
                                                 <div class="button">
-                                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                                                    
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <h3>After order has been received and assigned to technite</h3>
+                                </div>-->
+                                <div class="row">                                    
                                     <div class="col-xs-10 col-xs-offset-1">
                                         <div class="device-mockup" data-device="iphone5" data-orientation="portrait" data-color="white">
                                             <div class="device">
@@ -150,11 +148,11 @@
                     <div class="col-xs-3">     
                         <div class="row">               
                             <div class="col-xs-12">
-                                <h2>Driver Native Mobile App</h2>
+                                <h2>Technite Native Mobile App</h2>
                                 <p>Manage orders on the go, share location and communicate with customers.</p>
                                 <div class="row">
                                     <div class="col-xs-10 col-xs-offset-1">
-                                        <div class="device-mockup" data-device="iphone5" data-orientation="portrait" data-color="black">
+                                        <div class="device-mockup" data-device="galaxy_s3" data-orientation="portrait" data-color="black">
                                             <div class="device">
                                                 <div class="screen">
                                                     <div class="tech">
