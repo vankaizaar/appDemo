@@ -115,7 +115,7 @@ $(function () {
     tech.onclick = function () {
         if (counterTech == 0) {
             document.getElementById("tech").src = "images/steps/driver-native-app/1.png";
-            $("#tech").attr('title', 'Order received by Technite on Technites App').tooltip('fixTitle').tooltip('show');
+            $("#tech").attr('title', 'Order received by Technite on Technite App').tooltip('fixTitle').tooltip('show');
             counterTech++;
         } else if (counterTech == 1) {
             document.getElementById("tech").src = "images/steps/driver-native-app/2.png";

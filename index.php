@@ -140,7 +140,7 @@
                                             <div class="device">
                                                 <div class="screen">
                                                     <div class="tech">
-                                                        <img src="images/steps/driver-native-app/1.png" id="tech" class="img-responsive" onclick="changeImage3()" data-toggle="tooltip" data-placement="auto middle" title="Order received by Technite on Driver App"/>                                                        
+                                                        <img src="images/steps/driver-native-app/1.png" id="tech" class="img-responsive" onclick="changeImage3()" data-toggle="tooltip" data-placement="auto middle" title="Order received by Technite on Technite App"/>                                                        
                                                     </div>
                                                 </div>
                                                 <div class="button">
