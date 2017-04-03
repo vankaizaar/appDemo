@@ -114,36 +114,45 @@ $(function () {
 
     tech.onclick = function () {
         if (counterTech == 0) {
+            document.getElementById("tech").src = "images/steps/driver-native-app/0.png";
+            $("#tech").attr('title', 'Technite Device').tooltip('fixTitle').tooltip('show');
+            counterTech++;
+        } 
+        else if (counterTech == 1) {
             document.getElementById("tech").src = "images/steps/driver-native-app/1.png";
             $("#tech").attr('title', 'Order received by Technite on Technite App').tooltip('fixTitle').tooltip('show');
+            $('#tech').addClass('animated fadeInRight');
             counterTech++;
-        } else if (counterTech == 1) {
+        }
+        
+        else if (counterTech == 2) {
+            $('#tech').removeClass('animated fadeInRight');
             document.getElementById("tech").src = "images/steps/driver-native-app/2.png";
             $("#tech").attr('title', 'List of Technites orders').tooltip('fixTitle').tooltip('show');
             $('#tech').addClass('animated fadeInRight');
             counterTech++;
-        } else if (counterTech == 2) {
+        } else if (counterTech == 3) {
             $('#tech').removeClass('animated fadeInRight');
             document.getElementById("tech").src = "images/steps/driver-native-app/3.png";
             $("#tech").attr('title', 'Technite select order and select start').tooltip('fixTitle').tooltip('show');
             $('#tech').addClass('animated fadeInRight');
             counterTech++;
-        } else if (counterTech == 3) {
+        } else if (counterTech == 4) {
             $('#tech').removeClass('animated fadeInRight');
             document.getElementById("tech").src = "images/steps/driver-native-app/4.png";
             $("#tech").attr('title', 'Technite selects arrived').tooltip('fixTitle').tooltip('show');
             $('#tech').addClass('animated fadeInRight');
             counterTech++;
-        } else if (counterTech == 4) {
+        } else if (counterTech == 5) {
             document.getElementById("tech").src = "images/steps/driver-native-app/5.png";
             $("#tech").attr('title', 'Things that a technite can do using the app').tooltip('fixTitle').tooltip('show');
             $('#tech').removeClass('animated fadeInRight');
             counterTech++;
-        } else if (counterTech == 5) {
+        } else if (counterTech == 6) {
             document.getElementById("tech").src = "images/steps/driver-native-app/6.png";
             $("#tech").attr('title', 'When order complete Technite selects left location').tooltip('fixTitle').tooltip('show');
             $('#tech').addClass('animated fadeInRight');
-            counterTech = 5;
+            counterTech = 6;
         }
     };
 });
