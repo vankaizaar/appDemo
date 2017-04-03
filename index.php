@@ -89,7 +89,7 @@
                                             <div class="device">
                                                 <div class="screen">
                                                     <div class="cust2">
-                                                        <img src="images/steps/customer-device/1.png" alt="" class="img-responsive" id="custy2" onclick="changeImage2()" data-toggle="tooltip" data-placement="auto top" title="Customer receives notification of technite on their way"/>                                                                
+                                                        <img src="images/steps/customer-device/1.png" alt="" class="img-responsive" id="custy2" onclick="changeImage2()" data-toggle="tooltip" data-placement="auto top" title="Create Order using public task form"/>                                                                
                                                     </div>
                                                 </div>
                                                 <div class="button">

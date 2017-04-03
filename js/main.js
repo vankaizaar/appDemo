@@ -33,24 +33,6 @@ preload(
 $(document).ready(function () {
     $('[data-toggle="tooltip"]').tooltip();
 });
-//$(function () {
-//  var counterCust1 = 1;
-// custy1.onclick = function () {
-//   if (counterCust1 == 0) {
-//      document.getElementById("custy1").src = "images/steps/customer-device/1.png";
-//     $("#custy1").attr('title', 'Create Order using public task form').tooltip('fixTitle').tooltip('show');
-//      counterCust1++;
-// } else if (counterCust1 == 1) {
-//     document.getElementById("custy1").src = "images/steps/customer-device/2.png";
-//     $("#custy1").attr('title', 'Enter Order Details and click send order').tooltip('fixTitle').tooltip('show');
-//     counterCust1++;
-// } else if (counterCust1 == 2) {
-//      document.getElementById("custy1").src = "images/steps/customer-device/3.png";
-//      $("#custy1").attr('title', 'Notification received for successfully created order').tooltip('fixTitle').tooltip('show');
-//       counterCust1 = 2;
-//   }
-// };
-//});
 
 $(function () {
     var counterCust2 = 1;
@@ -75,9 +57,10 @@ $(function () {
             $('#custy2').removeClass('animated fadeInDown');
             document.getElementById("custy2").src = "images/steps/customer-device/4.png";
             $("#custy2").attr('title', 'Customer receives notification of technite on their way').tooltip('fixTitle').tooltip('show');
-            $('#custy2').addClass('animated fadeInUp');
+            $('#custy2').addClass('animated fadeInRight');
             counterCust2++;
         } else if (counterCust2 == 4) {
+            $('#custy2').removeClass('animated fadeInRight');
             document.getElementById("custy2").src = "images/steps/customer-device/5.png";
             $("#custy2").attr('title', 'Customer selects link to track technite').tooltip('fixTitle').tooltip('show');
             $('#custy2').addClass('animated fadeInUp');
