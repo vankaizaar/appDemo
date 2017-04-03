@@ -82,7 +82,7 @@
                         <div class="row">
                             <div class="col-xs-12">
                                 <h2>On customer Device</h2>
-                                <p>Order through the business system, track location of driver in real-time, and rate service.</p>                               
+                                <p>Order through the business system, track location of Technite in real-time, and rate service.</p>                               
                                 <div class="row">                                    
                                     <div class="col-xs-10 col-xs-offset-1">
                                         <div class="device-mockup" data-device="iphone5" data-orientation="portrait" data-color="white">
@@ -108,7 +108,7 @@
                             <div class="row">
                                 <div class="col-xs-12">
                                     <h2>Business Management Dashboard</h2>
-                                    <p>Dispatch orders to drivers, locate and communicate with drivers.</p>                                        
+                                    <p>Dispatch orders to Technites, locate and communicate with Technites.</p>                                        
                                     <div class="row">
                                         <div class="col-xs-12">
                                             <div class="device-mockup" data-device="macbook" data-orientation="portrait" data-color="white">
